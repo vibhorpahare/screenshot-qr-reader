@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "QR Link Scanner",
+  "version": "1.0",
+  "description": "Click the toolbar icon, drop or paste a QR screenshot, get the link behind it.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "QR Link Scanner"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "tabs"]
+}
