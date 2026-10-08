@@ -1,4 +1,4 @@
-# QR Link Scanner
+# Screenshot QR Reader
 
 A tiny Chrome extension that decodes a QR code from a screenshot — drag, drop, paste, done. No camera, no uploads, no tracking. Everything happens locally in the popup.
 
@@ -18,11 +18,11 @@ This isn't on the Chrome Web Store — load it as an unpacked extension:
 
 1. Clone this repo
    ```bash
-   git clone https://github.com/vibhorpahare/qr-link-scanner.git
+   git clone https://github.com/vibhorpahare/screenshot-qr-reader.git
    ```
 2. Open `chrome://extensions` in Chrome
 3. Enable **Developer mode** (top-right toggle)
-4. Click **Load unpacked** and select the `qr-link-scanner` folder
+4. Click **Load unpacked** and select the `screenshot-qr-reader` folder
 5. Pin the extension icon to your toolbar
 
 ## Usage
